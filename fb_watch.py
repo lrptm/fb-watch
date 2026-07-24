@@ -39,8 +39,6 @@ KEYWORDS = [
     "que miras bobo", "argentina", "spain",
     "messi", "ronaldo", "mbappe", "haaland", "neymar",
     "bellingham", "vinicius", "salah", "de bruyne",
-    "transfer", "transfer window", "signing",
-    "penalty", "offside", "var", "relegation",
 ]
 
 def is_football_thread(thread):
