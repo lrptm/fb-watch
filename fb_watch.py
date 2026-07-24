@@ -35,8 +35,6 @@ KEYWORDS = [
     "football", "soccer",
     "fifa", "ea fc", "efootball", "madden",
     "football manager", "fm26", "fm25", "fm24",
-    "premier league", "la liga", "bundesliga", "serie a", "ligue 1",
-    "champions league", "europa league", "conference league",
     "world cup", "euros", "copa america", "nations league",
     "que miras bobo", "argentina", "spain",
     "messi", "ronaldo", "mbappe", "haaland", "neymar",
@@ -44,8 +42,7 @@ KEYWORDS = [
     "transfer", "transfer window", "signing",
     "penalty", "offside", "var", "relegation",
     "el clasico", "der klassiker", "north london derby",
-    "mls", "nfl", "super bowl",
-    "copa libertadores", "afc champions league",
+    "super bowl",
 ]
 
 def is_football_thread(thread):
