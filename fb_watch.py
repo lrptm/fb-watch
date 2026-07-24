@@ -37,7 +37,6 @@ KEYWORDS = [
     "world cup", "euros", "copa america", "nations league",
     "que miras bobo", "argentina", "spain",
     "messi", "ronaldo", "mbappe", "haaland", "neymar",
-    "bellingham", "vinicius", "salah", "de bruyne",
 ]
 
 def is_football_thread(thread):
