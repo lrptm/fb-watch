@@ -21,7 +21,7 @@ def save_state(state):
         json.dump(state, f, indent=2)
 
 def fetch_catalog():
-    url = "https://a.4cdn.org/sp/catalog.json"
+    url = "https://a.4cdn.org/v/catalog.json"
     req = Request(url, headers={"User-Agent": "FBWatch/1.0 (github.com/lrptm/fb-watch)"})
     try:
         with urlopen(req, timeout=30) as resp:
@@ -76,7 +76,7 @@ def check_board():
                 new_threads.append({
                     "id": no,
                     "title": sub[:200] if sub else "(no subject)",
-                    "url": f"https://boards.4chan.org/sp/thread/{no}/",
+                    "url": f"https://boards.4chan.org/v/thread/{no}/",
                     "time": int(thread.get("time", time.time())),
                     "preview": com[:500] if com else "",
                 })
@@ -123,9 +123,9 @@ def generate_rss(new_threads):
     feed = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Football Threads on /sp/</title>
-    <link>https://boards.4chan.org/sp/</link>
-    <description>New football/soccer threads on 4chan's /sp/ board, checked every 15 minutes</description>
+    <title>Football Threads on /v/</title>
+      <link>https://boards.4chan.org/v/</link>
+      <description>New football/soccer threads on 4chan's /v/ board, checked every 15 minutes</description>
     <language>en-us</language>
     <lastBuildDate>{now}</lastBuildDate>
     <atom:link href="{repo_url}" rel="self" type="application/rss+xml"/>
