@@ -34,7 +34,6 @@ def fetch_catalog():
 KEYWORDS = [
     "football", "soccer",
     "fifa", "ea fc", "efootball",
-    "football manager", "fm26", "fm25", "fm24",
     "world cup", "euros", "copa america", "nations league",
     "que miras bobo", "argentina", "spain",
     "messi", "ronaldo", "mbappe", "haaland", "neymar",
