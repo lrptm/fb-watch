@@ -33,7 +33,7 @@ def fetch_catalog():
 
 KEYWORDS = [
     "football", "soccer",
-    "fifa", "ea fc", "efootball", "madden",
+    "fifa", "ea fc", "efootball",
     "football manager", "fm26", "fm25", "fm24",
     "world cup", "euros", "copa america", "nations league",
     "que miras bobo", "argentina", "spain",
@@ -41,8 +41,6 @@ KEYWORDS = [
     "bellingham", "vinicius", "salah", "de bruyne",
     "transfer", "transfer window", "signing",
     "penalty", "offside", "var", "relegation",
-    "el clasico", "der klassiker", "north london derby",
-    "super bowl",
 ]
 
 def is_football_thread(thread):
