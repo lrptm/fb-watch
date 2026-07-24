@@ -5,13 +5,13 @@
       <link>https://boards.4chan.org/v/</link>
       <description>New football/soccer threads on 4chan's /v/ board, checked every 15 minutes</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jul 2026 05:46:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 18:59:02 +0000</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/lrptm/fb-watch/main/fb_feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>No threads yet</title>
       <link>https://boards.4chan.org/sp/</link>
       <guid>fb-watch-start</guid>
-      <pubDate>Fri, 24 Jul 2026 05:46:15 +0000</pubDate>
+      <pubDate>Fri, 24 Jul 2026 18:59:02 +0000</pubDate>
       <description>No football threads found yet. The feed will update when a new thread is detected.</description>
     </item>
   </channel>
