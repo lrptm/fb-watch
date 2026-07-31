@@ -33,7 +33,7 @@ def fetch_catalog():
 
 KEYWORDS = [
     "football", "soccer",
-    "fifa", "ea fc", "efootball",
+    "fifa", "ea fc",
     "world cup",
     "que miras bobo", "argentina", "spain",
     "messi", "ronaldo", "mbappe", "haaland", "neymar",
